@@ -16,12 +16,12 @@ li {
   letter-spacing: 1px;
 }
 html {
-  background-color: #ed7419;
+  background-color: #fcfcfc00;
 }
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #ed7419;
+  background-color: #ffffff;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
