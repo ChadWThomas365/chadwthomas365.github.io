@@ -3,35 +3,73 @@ html {
   font-size: 10px;
   /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
   font-family: "Poppins";
+  background-color: #fcfcfc00;
 }
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
 }
 
-p,
-li {
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 28px;
+  text-align: center;
+}
+
+h5 {
   font-size: 24px;
+  text-align: left;
+}
+
+h6 {
+  font-size: 24px;
+  text-align: left;
+}
+
+ul {
+  font-size: 22px;
   line-height: 2;
   letter-spacing: 1px;
+  text-align: center;
 }
-html {
-  background-color: #fcfcfc00;
+
+li {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: left;
 }
+
 body {
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: white;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: #00539f;
+  color: black;
 }
 img {
   display: block;
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 40%;
+}
+nav {
+  font-size: 24px;
+  text-align: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+p {
+  text-indent: 2em;
+  text-align: left;
+  font-size: 18px;
 }
