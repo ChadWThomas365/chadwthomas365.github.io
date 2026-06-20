@@ -13,23 +13,25 @@ let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
 function setUserName() {
-  const myName = prompt("Please enter your name.");
+  const myName = prompt(
+    "Please enter your name. This is the name you want www.chadwthomas.com to display as a greeting. Chad will not save your name on his computer.",
+  );
   localStorage.setItem("name", myName);
-  myHeading.textContent = `Hello, ${myName}, from Chad W. Thomas`;
+  myHeading.textContent = `Hello, ${myName}!`;
 }
 
 if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   const storedName = localStorage.getItem("name");
-  myHeading.textContent = `Hello, ${storedName}, from Chad W. Thomas,`;
+  myHeading.textContent = `Hello, ${storedName}!`;
 }
 
 if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   const storedName = localStorage.getItem("name");
-  myHeading.textContent = `Hello, ${storedName}, from Chad W. Thomas,`;
+  myHeading.textContent = `Hello, ${storedName}!`;
 }
 
 myButton.addEventListener("click", () => {
