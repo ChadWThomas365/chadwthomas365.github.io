@@ -75,5 +75,7 @@ p {
   font-size: 18px;
 }
 footer {
+  text-align:center;
+  font-size:10px;
   background-color: #ed7419;
 }
