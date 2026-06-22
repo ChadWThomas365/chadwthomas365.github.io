@@ -69,7 +69,7 @@ nav {
   column-gap: 5px;
 }
 
-p {
+body p {
   text-indent: 2em;
   text-align: left;
   font-size: 18px;
