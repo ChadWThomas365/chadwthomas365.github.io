@@ -41,12 +41,12 @@ h6 {
 }
 
 ul {
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
 }
 
 li {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 2;
   letter-spacing: 1px;
   text-align: left;
@@ -75,7 +75,7 @@ nav {
 body p {
   text-indent: 2em;
   text-align: left;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 span {
